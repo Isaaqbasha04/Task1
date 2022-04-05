@@ -1,0 +1,33 @@
+
+
+ Difference between HTTP1.1 vs HTTP2
+
+
+
+
+ Introduction
+
+
+ * The Hypertext Transfer Protocol, or HTTP, is an application protocol that has been the de facto standard for communication on the World Wide Web since its invention in 1989. 
+ * From the release of HTTP/1.1 in 1997 until recently, there have been few revisions to the protocol. 
+ * But in 2015, a reimagined version called HTTP/2 came into use, which offered several methods to decrease latency, especially when dealing with mobile platforms and server-intensive graphics and videos. 
+ * HTTP/2 has since become increasingly popular, with some estimates suggesting that around a third of all websites in the world support it. 
+ * In this changing landscape, web developers can benefit from understanding the technical differences betweenHTTP/1.1 and HTTP/2, allowing them to make informed and efficient decisions about evolving best practices.
+
+ * After reading this article, you will understand the main differences between HTTP/1.1 and HTTP/2, concentrating on the technical 
+     changes HTTP/2 has adopted to achieve a more efficient Web protocol.
+
+
+ * HTTP2 Vs. HTTP1 is not a debate at all. 
+ *  HTTP2 is much faster and more reliable than HTTP1. 
+ *  HTTP1 loads a single request for every TCP connection, while HTTP2 avoids network delay by using multiplexing.
+ * HTTP is a network delay sensitive protocol in the sense that if there is less network delay, then the page loads faster.
+ *  However, an impressive increase in network bandwidth only slightly improves page load time. 
+ * This is key to understanding the differences in performance efficiencies between the different versions of HTTP. 
+ * Back in the day when people used dial up modems web pages were simple and it was the actual data transfer between the server and the client that contributed towards the largest chunk of the page load time. 
+ * Today the actual downloading of resources from server takes a negligible portion of the total page load time due to the tremendous increase in bandwidth availability. 
+ * It is the time taken to establish the TCP connection and making requests that impacts performance. It was initially recommended to use only two connections per hostname but today most browsers use six connections per hostname. 
+ * When we talk about http vs http2 in terms of performance it is important to note that a lot of performance optimizations adopted by HTTP/1.1 introduced complexities in terms of developmental efforts as well as network congestion that HTTP/2 attempts to address.
+
+
+ 
